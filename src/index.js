@@ -269,7 +269,7 @@ class ParallaxScrollView extends Component {
 				]}
 			>
 				<View>
-					{renderBackground()}
+					{renderBackground(scrollY)}
 				</View>
 			</Animated.View>
 		)
